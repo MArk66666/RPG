@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9f83db326d2fb74fa26be0513add085, type: 3}
+  m_Name: HealLinura
+  m_EditorClassIdentifier: 
+  id: HealLinura
+  questName: Find a healing potion to help the stranger
+  questDescription: Wandering through the cursed forest you stumble upon a wounded
+    young lady, the stranger is seriously injured, she needs a healing potion or
+    powerful healing magic to get back on her feet
+  questPrerequisites: []
+  steps:
+  - Description: Find a healing potion
+    Step: {fileID: 479287900686567405, guid: 50cf1a94be4cfea419919309dd53541c, type: 3}
+  - Description: Bring the potion to Linura
+    Step: {fileID: 1450550170063619433, guid: 1286f758e3fc8404e8ced908575f5ee5, type: 3}

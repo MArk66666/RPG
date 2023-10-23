@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a694efbf776e94a40882eda2dcd782db, type: 3}
+  m_Name: Help Linura
+  m_EditorClassIdentifier: 
+  Nodes:
+  - id: 0
+    Speaker: {fileID: 11400000, guid: 018f1582a48d3134bbb13325b017cca7, type: 2}
+    NodeText: What do you need, stranger?
+    Choices:
+    - Text: Start quest
+      TargetNodeID: 0
+      Interactions: 00000000
+      Conditions: 
+      EndConversation: 1
+      Quest: {fileID: 11400000, guid: 4f6a5e9d864c0a74182058ff8c8b8703, type: 2}
+      AddableItem: {fileID: 0}
+      RemovableItem: {fileID: 0}
+      RequiredItem: {fileID: 0}
+      RequiredQuest: {fileID: 0}
+      Completed: 0
+    - Text: Give potion
+      TargetNodeID: 1
+      Interactions: 02000000
+      Conditions: 0100000000000000
+      EndConversation: 0
+      Quest: {fileID: 11400000, guid: 4f6a5e9d864c0a74182058ff8c8b8703, type: 2}
+      AddableItem: {fileID: 0}
+      RemovableItem: {fileID: 11400000, guid: 46a7105f7575f134da39e596baaa075b, type: 2}
+      RequiredItem: {fileID: 11400000, guid: 46a7105f7575f134da39e596baaa075b, type: 2}
+      RequiredQuest: {fileID: 11400000, guid: 4f6a5e9d864c0a74182058ff8c8b8703, type: 2}
+      Completed: 0
+  - id: 1
+    Speaker: {fileID: 11400000, guid: 018f1582a48d3134bbb13325b017cca7, type: 2}
+    NodeText: Thank you!
+    Choices:
+    - Text: You are welcome!
+      TargetNodeID: 1
+      Interactions: 
+      Conditions: 
+      EndConversation: 1
+      Quest: {fileID: 0}
+      AddableItem: {fileID: 0}
+      RemovableItem: {fileID: 0}
+      RequiredItem: {fileID: 0}
+      RequiredQuest: {fileID: 0}
+      Completed: 0

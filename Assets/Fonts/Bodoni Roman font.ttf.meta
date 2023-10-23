@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 5337bacc151bc0e48a3cf17c72910289
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Bodoni BT
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 10eedc75f3a6f6942ae4bacc02ddef2b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
